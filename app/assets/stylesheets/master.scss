@@ -3,7 +3,14 @@
 .clear {
     clear: both;
 }
-
+h1 {
+    font-family: 'advent_prolight', serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+h2 {
+    font-family: 'advent_prothin', sans-serif;
+}
 .circle {
     font-weight: bold;
     font-style: italic;
@@ -38,6 +45,8 @@
     color: black;
     font-size: 25px;
     border-bottom: 1px solid #dfdfdf;
+    font-family: 'advent_prolight', sans-serif;
+    font-weight: bold;
 }
 
 header {
