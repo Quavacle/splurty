@@ -12,18 +12,27 @@
   <body>
     <header class="row">
       <div class="col-3">
-        LOgO
+        <div class = "circle">
+          <br />
+          Constantly
+          <br />
+          Changing
+          <br />
+          Nonsense
+        </div>
       </div>
-      <div class="col-4">
+      <div class="col-4 slogan">
         Free Gibberish, compliments of the Story Whisperer
       </div>
-      <div class="col-5"
+      <div class="col-5 links">
         <%= link_to 'Contribute', '#' %>
         <%= link_to 'About', '#' %>
     </header>
 
-    <br class="clear" />
+    <hr />
     
+    <br class="clear" />
+
     <%= yield %>
   </body>
 </html>
