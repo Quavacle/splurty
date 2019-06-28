@@ -9,7 +9,7 @@ h1 {
     font-size: 48px;
 }
 h2 {
-    font-family: 'advent_prothin', sans-serif;
+    font-family: 'advent_prolight', sans-serif;
 }
 .circle {
     font-weight: bold;
@@ -72,4 +72,12 @@ hr {
 
 .logo:hover {
     text-decoration: none;
+}
+
+.about{
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+#toad{
+    border-radius: 50%;
 }
