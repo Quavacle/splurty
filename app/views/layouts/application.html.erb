@@ -23,13 +23,13 @@
         </div>
         <% end %>
       </div>
-      <div class="col-4 slogan">
+      <div class="col-4 hidden-xs-down slogan">
         Free Gibberish, compliments of the Story Whisperer
       </div>
-      <div class="col-5 links">
+      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
         <!-- Button trigger modal -->
         <%= link_to 'Contribute', "#", data: {toggle: 'modal', target: '#myModal'} %>
-        </button>
+        &nbsp;&nbsp;
 
         <%= link_to 'About', about_path %>
     </header>
@@ -46,8 +46,9 @@
       </div>
       <div class="modal-body">
         <%= simple_form_for Quote.new do |f| %>
-        <%= f.input :saying %>
-        <%= f.input :author %>
+        <%= f.input :saying, label: "What saying would you like to add?", placeholder: "Revenge is a dish best served cold." %>
+        <br />
+        <%= f.input :author, label: "Who said that?", placeholder: "Klingon proverb" %>
         <br />
     
 
@@ -76,10 +77,10 @@
   <div class ="footer">
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-sm-6">
           <%= link_to "Play it again, Sam", root_path, class: 'next-quote' %>
         </div>
-        <div class="col-6 footer-blurb">
+        <div class="col-12 col-sm-6 footer-blurb">
           Pieced together by <a href="#">Bronson Valiquet Myers</a><br />
       </div>
     </div>
